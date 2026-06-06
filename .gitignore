@@ -7,7 +7,7 @@ node_modules/
 .env.production
 .env.development
 
-# Firebase (only if still using Firestore)
+# Firebase 
 .firebase/
 firebase-debug.log
 
