@@ -1,16 +1,53 @@
-# React + Vite
+# 🌦️ NEPAL WEATHER GIS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based Weather and GIS application for Nepal that provides real-time weather data with municipality-level location selection and interactive map visualization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🌐 Live Website: https://nepal-weather.vercel.app/  
+📂 GitHub Repository: https://github.com/shishir222/NEPAL_WEATHER.git  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌍 Municipality-based location selection (Nepal)
+- 🌦️ Real-time weather data integration
+- 🗺️ Interactive GIS map system
+- 📍 Search any location easily
+- ⚡ Fast and lightweight frontend
+- 📱 Fully responsive design (mobile + desktop)
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML / CSS / JavaScript (or React)
+- Weather API (OpenWeather / Open-Meteo)
+- Map Library (Leaflet / Mapbox)
+- Vercel (Deployment)
+
+---
+
+## 📂 Project Structure
+
+NEPAL_WEATHER/
+├── public/
+├── src/
+├── assets/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/shishir222/NEPAL_WEATHER.git
+cd NEPAL_WEATHER
+npm install
+npm run dev
